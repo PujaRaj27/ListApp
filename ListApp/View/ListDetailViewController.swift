@@ -23,7 +23,7 @@ class ListDetailViewController: UIViewController {
                 if let selectedPost = selectedPost {
                     computeAdditionalDetails(for: selectedPost)
                 } else {
-                    print("Error: selectedPost is nil")
+                    print("Error: Post is nil")
                 }
     }
     
